@@ -12,3 +12,6 @@
 
 /* Full-resolution scientific-figure access, 2026-11-20. */
 .lightbox-original{margin-top:12px;font-size:12px}.detail-figure img[src*="dynamics-v3"]{max-height:none}
+
+/* Alternative bibliographic entry for publisher access restrictions. */
+.publication-links{display:flex;flex-direction:column;gap:8px;align-self:center}.publication-links .paper-link{width:66px;white-space:nowrap;font-size:11px;padding:5px 6px}@media(max-width:600px){.publication-links{grid-column:2;flex-direction:row;justify-self:start}}
