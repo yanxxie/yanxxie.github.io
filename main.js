@@ -30,6 +30,7 @@ document.querySelectorAll('[data-zoom]').forEach(button => {
     const image = lightbox.querySelector('img');
     image.src = source.src;
     image.alt = source.alt;
+    lightbox.querySelector('.lightbox-original')?.setAttribute('href', source.src);
     lightbox.querySelector('.lightbox-caption').textContent = button.closest('figure').querySelector('figcaption')?.textContent || '';
     lightbox.showModal();
   });

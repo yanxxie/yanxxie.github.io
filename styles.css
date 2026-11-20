@@ -9,3 +9,6 @@
 
 /* Thesis figure card, added 2026-11-20. Original images remain uncropped. */
 .project-image{display:flex;align-items:center;justify-content:center;min-height:190px;background:#fff;border-bottom:1px solid var(--line);padding:18px}.project-image img{width:100%;height:170px;object-fit:contain}.detail-figure:has(img[src*="thesis_architecture"]){padding:24px 12px}.detail-figure img[src*="thesis_architecture"]{max-height:850px}
+
+/* Full-resolution scientific-figure access, 2026-11-20. */
+.lightbox-original{margin-top:12px;font-size:12px}.detail-figure img[src*="dynamics-v3"]{max-height:none}
